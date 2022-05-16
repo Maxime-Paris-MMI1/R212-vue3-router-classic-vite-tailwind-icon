@@ -5,15 +5,15 @@ module.exports = {
   ],
   theme: {
     extend: {
-      "colors": {
-        // Ici vos couleurs exportées de Figma
+      colors: {
+        indigo: {
+          '25': '#f6f8ff',
+        }
       },
-      "fontFamily": {
-        // Ici vos familles de polices exportées de Figma
-        // Ne pas oublier de les charger dans '/index.html' !
+      fontFamily: {
+        inter: 'Inter',
       },
     },
-
   },
   plugins: [],
 }
