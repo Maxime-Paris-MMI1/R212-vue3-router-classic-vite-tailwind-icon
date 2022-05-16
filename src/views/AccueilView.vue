@@ -10,6 +10,9 @@ export default {
 
 <template class="bg-indigo-25">
     <header1 />
+    <div class="text-center mt-14">
+        <h1 class="text-4xl leading-10 font-bold">Search properties to rent</h1>
+    </div>
     <div class="grid grid-flow-row-dense grid-cols-[repeat(auto-fit,minmax(343px,1fr))]">
         <card class="p-4" 
         :favoris="true"
